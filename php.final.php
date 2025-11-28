@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,7 +32,6 @@
         $idade1 = 16;
         $nomeCompleto1 = $primeiroNome1 . " " . $sobrenome1;
 
-        /
         $primeiroNome2 = "Guilherme";
         $sobrenome2 = "Gabriel";
         $idade2 = 16;
@@ -42,7 +40,6 @@
         $a = 10;
         $b = 5;
         $soma = $a + $b;
-
         
         echo "<p><strong>Nome Completo 1:</strong> $nomeCompleto1</p>";
         if ($idade1 >= 18) {
@@ -63,4 +60,5 @@
         echo "<p>A soma de $a e $b é <strong>$soma</strong>.</p>";
     ?>
 </body>
+
 </html>
