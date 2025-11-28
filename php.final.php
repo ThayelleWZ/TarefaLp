@@ -5,10 +5,7 @@
     <title>Exemplos PHP</title>
     <style>
         body {
-            background-image: url('r.JPG');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+            background: black; /* Fundo preto */
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -48,7 +45,6 @@
             echo "<p>$nomeCompleto1 é menor de idade.</p>";
         }
 
-     
         echo "<p><strong>Nome Completo 2:</strong> $nomeCompleto2</p>";
         if ($idade2 >= 18) {
             echo "<p>$nomeCompleto2 é maior de idade.</p>";
@@ -56,7 +52,6 @@
             echo "<p>$nomeCompleto2 é menor de idade.</p>";
         }
 
-        
         echo "<p>A soma de $a e $b é <strong>$soma</strong>.</p>";
     ?>
 </body>
